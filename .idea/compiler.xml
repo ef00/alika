@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alika-web" />
         <module name="alika" />
+        <module name="alika-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="alika" target="1.8" />
+      <module name="alika-core" target="1.8" />
+      <module name="alika-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

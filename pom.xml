@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ef00</groupId>
+    <artifactId>neural-network-exp</artifactId>
+    <version>1.0.0</version>
+    <name>neural-network-exp</name>
+    <description>an experimental implementation of neural network</description>
+
+    <!-- 定义变量 -->
+    <properties></properties>
+    <!-- 管理依赖 -->
+    <dependencyManagement></dependencyManagement>
+    <!-- 引入依赖 -->
+    <dependencies></dependencies>
+    <!-- 声明构建 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <!-- 声明构建文档 -->
+    <profiles></profiles>
+</project>

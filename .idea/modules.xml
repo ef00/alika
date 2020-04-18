@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nerual-network-exp.iml" filepath="$PROJECT_DIR$/nerual-network-exp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alika.iml" filepath="$PROJECT_DIR$/alika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alika-core/alika-core.iml" filepath="$PROJECT_DIR$/alika-core/alika-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alika-web/alika-web.iml" filepath="$PROJECT_DIR$/alika-web/alika-web.iml" />
     </modules>
   </component>
 </project>

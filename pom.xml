@@ -15,11 +15,31 @@
     </modules>
 
     <!-- 定义变量 -->
-    <properties></properties>
+    <properties>
+        <spring-boot-starter>2.2.2.RELEASE</spring-boot-starter>
+        <spring-boot>2.2.2.RELEASE</spring-boot>
+        <spring-boot-starter-web>2.2.2.RELEASE</spring-boot-starter-web>
+    </properties>
     <!-- 管理依赖 -->
-    <dependencyManagement></dependencyManagement>
-    <!-- 引入依赖 -->
-    <dependencies></dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${spring-boot-starter}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot</artifactId>
+                <version>${spring-boot}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot-starter-web}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <!-- 声明构建 -->
     <build>
         <plugins>

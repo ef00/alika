@@ -18,7 +18,7 @@
     <properties>
         <spring-boot-starter>2.2.2.RELEASE</spring-boot-starter>
         <spring-boot>2.2.2.RELEASE</spring-boot>
-        <spring-boot-starter-web>2.2.2.RELEASE</spring-boot-starter-web>
+        <spring-boot-starter-web>2.5.12</spring-boot-starter-web>
     </properties>
     <!-- 管理依赖 -->
     <dependencyManagement>

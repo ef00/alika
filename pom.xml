@@ -17,7 +17,7 @@
     <!-- 定义变量 -->
     <properties>
         <spring-boot-starter>2.2.2.RELEASE</spring-boot-starter>
-        <spring-boot>2.2.2.RELEASE</spring-boot>
+        <spring-boot>2.7.18</spring-boot>
         <spring-boot-starter-web>2.2.2.RELEASE</spring-boot-starter-web>
     </properties>
     <!-- 管理依赖 -->
